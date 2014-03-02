@@ -10,4 +10,4 @@ function create_a_counter()
 end
 
 fun = create_a_counter()
-print(fun)
+print(fun(2))
