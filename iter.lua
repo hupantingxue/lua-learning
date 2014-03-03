@@ -10,7 +10,7 @@ function list_iter (t)
     end
 end
 
-t = {10, 20, 30}
+t = {10, 20, 30, 50, 60, 90}
 iter = list_iter(t)
 while true do
     local element = iter()
